@@ -9,7 +9,7 @@
   dependencies:
     "@babel/highlight" "^7.8.3"
 
-"@babel/core@^7.1.0", "@babel/core@^7.7.5", "@babel/core@^7.8.4":
+"@babel/core@7.8.4", "@babel/core@^7.1.0", "@babel/core@^7.7.5":
   version "7.8.4"
   resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.8.4.tgz#d496799e5c12195b3602d0fddd77294e3e38e80e"
   integrity sha512-0LiLrB2PwrVI+a2/IEskBopDYSd8BCb3rOvH7D5tzoWd696TBEduBvuLVm4Nx6rltrLZqvI3MCalB2K2aVzQjA==
@@ -598,7 +598,7 @@ babel-plugin-jest-hoist@^25.1.0:
   dependencies:
     "@types/babel__traverse" "^7.0.6"
 
-babel-plugin-tester@^8.0.1:
+babel-plugin-tester@8.0.1:
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-tester/-/babel-plugin-tester-8.0.1.tgz#6cffa9b9d508a567139339afc74c97c64b62f131"
   integrity sha512-5PN7FR1oxbTiA7JUdInT+vFkgu6ckYL5moRzWf5T7hAq+QX5cbcHpoXNHu1x7SQHCEZwYMhN1HzZoqeolNaO2g==

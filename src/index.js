@@ -1,9 +1,20 @@
+const t = require('babel-types')
+
+
 module.exports = function testPlugin(babel) {
 	return {
 		visitor: {
-			Identifier(path) {
-				if (path.node.name === 'foo') {
-					path.node.name = 'bar'
+			MemberExpression(path) {
+				if (path.node.object.name === '$') {
+					path.node.object.name = 'r'
+					const fn = t.arrowFunctionExpression(
+						[t.identifier('x')],
+						t.memberExpression(
+							t.identifier('x'),
+							path.node.property,
+						),
+					)
+					path.replaceWith(fn)
 		  		}
 			}
 		}

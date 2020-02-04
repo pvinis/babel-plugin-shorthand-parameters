@@ -1,6 +1,13 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`works 1`] = `
-"var bar = 1;
-if (bar) console.log(bar);"
-`;
+exports[`works 1`] = `"const b = x => x.id;"`;
+
+exports[`works 2`] = `"[1, 2].map(x => x.id);"`;
+
+exports[`works 3`] = `"const b = x0 => x0.id;"`;
+
+exports[`works 4`] = `"const b = (x0, x1) => x0.id"`;
+
+exports[`works 5`] = `"const b = (x0, x1) => x0.id + x1.ok"`;
+
+exports[`works 6`] = `"const b = (x0, x1) => x1.ok;"`;

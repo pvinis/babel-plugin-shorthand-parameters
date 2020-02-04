@@ -1,7 +1,11 @@
 {
     "name": "babel-plugin-shorthand-parameters",
     "version": "0.1.0",
+    "scripts": {
+        "test": "jest"
+    },
     "dependencies": {
+        "babel-types": "^6.26.0",
         "jest": "^25.1.0"
     },
     "devDependencies": {

@@ -10,7 +10,7 @@
     },
     "devDependencies": {
         "@babel/core": "7.12.9",
-        "babel-plugin-tester": "8.0.1"
+        "babel-plugin-tester": "10.1.0"
     },
     "peerDependencies": {
         "@babel/core": "^7.0.0-0"

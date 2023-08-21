@@ -6,7 +6,7 @@
     },
     "dependencies": {
         "babel-types": "^6.26.0",
-        "jest": "^25.1.0"
+        "jest": "^29.0.0"
     },
     "devDependencies": {
         "@babel/core": "7.12.9",
